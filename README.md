@@ -10,7 +10,7 @@ The framework is tested with 64 concurrent player per lobby with each player con
 * Built in NAT Transversal and Relay server
 * Automatic Position Sychronization
 * Interest Management
-* Reliable communication
+* Reliable and unreliable communication channels
 * Built in in-game chat
 * Network Statistics
 * Consistensy Control
