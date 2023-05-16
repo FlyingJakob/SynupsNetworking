@@ -4711,8 +4711,7 @@ MonoBehaviour:
   SocketDebug: 0
   AdvancedDebug: 0
   playerStatus: 0
-  forceRelay: 1
-  checkPingReplies: 0
+  forceRelay: 0
 --- !u!4 &804299984
 Transform:
   m_ObjectHideFlags: 0
