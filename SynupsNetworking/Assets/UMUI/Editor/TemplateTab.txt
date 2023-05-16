@@ -1,0 +1,7 @@
+using UnityEngine;
+
+
+public class #CLASSNAME# : MonoBehaviour
+{
+    // Add any custom code for your UiTab here
+}
