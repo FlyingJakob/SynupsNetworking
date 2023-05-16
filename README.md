@@ -1,6 +1,6 @@
 # Synups Networking
-An open source peer-to-peer networking framework for Unity, developed as a bachelor thesis at Halmstad University by Jakob Forsbacka and Gustav Sollenius.
-The framework is tested with 64 concurrent player per lobby with each player contributing with 12 packets/s and 0.7 kB/s on all other clients.
+An open source peer-to-peer networking framework for Unity, developed as a bachelor thesis at **Halmstad University** by J**akob Forsbacka and Gustav Sollenius**.
+The framework is **tested with 64 concurrent players** per lobby with each player contributing with **12 packets/s and 0.7 kB/s** on all other clients.
 
 
 # Features
