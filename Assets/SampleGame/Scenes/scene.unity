@@ -3880,6 +3880,7 @@ MonoBehaviour:
   lobbyGrid: {fileID: 1234898841}
   lobbyPrefab: {fileID: 9010440546436253802, guid: c5ed1741163f3e94e8d20d217214baca, type: 3}
   lobbyName: {fileID: 1524726207}
+  buttonCooldownTime: 2
 --- !u!1 &667685135
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,6 +4690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transport: {fileID: 804299985}
   maxPlayers: 64
+  rendezvousServerRTT: 0
   port: 5019
   holePunchServerAddress: 3.67.29.230
   holePunchServerPort: 5000
@@ -4737,11 +4739,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statstimeCounter: 0
-  packetTimeout: 0.2
-  maximumRetransmissions: 10
+  enablePacketCoalescing: 0
+  packetTimeout: 0
+  adaptiveThrottling: 0
+  timeToEmptySendBuffer: 0
+  throttleStartTime: 0
+  packetCountHistorySize: 0
+  throttleDecreaseFactor: 0
+  maxAllowedDeviation: 0
+  agressiveThrottlingDecreaseFactor: 0
+  logDeviation: 0
+  onlyLogAboveDeviationThreshold: 0
+  logSendbufferCount: 0
+  logOnlySendBufferCountWhileThrottling: 0
+  logPacketCountHistory: 0
+  logThrottleDecreaseTime: 0
+  logAgressiveThrottling: 0
   inducePacketLoss: 0
   closeUdpFlag: 0
   packetLossRate: 20
+  induceDelay: 0
+  delay: 0
+  forceUnreliable: 0
 --- !u!114 &804299986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6031,7 +6050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1121994678
 Transform:
   m_ObjectHideFlags: 0
@@ -6619,7 +6638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1286356289
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9122,7 +9141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1687629733
 Transform:
   m_ObjectHideFlags: 0
