@@ -449,7 +449,6 @@ namespace Player
         }
         public void DamagePlayer(int i)
         {
-            return;
             RPC("RPCDamagePlayer",TransportChannel.Reliable,i);
         }
 
